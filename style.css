@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.9rem;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://plus.unsplash.com/premium_photo-1677354243201-934cb9b5af7c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80);
+    background-repeat: repeat;
+}
+
+h1 {
+    margin-block: 20px;
+
+}
+
+h2 {
+    margin-block: 20px;
+    font-size: 3rem;
+}
+
+#increment-btn {
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 20pc;
+    background-color: rgb(196, 21, 21);
+
+}
+
+#decrement-btn {
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 20pc;
+    background-color: rgb(196, 21, 21);
+
+}
+
+#save-btn {
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 20pc;
+    background-color: rgb(49, 189, 103);
+
+}
+
+
+button {
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+#welcome-el{
+    font-size: 1rem;
+}
+
+#save-el{
+    font-size: 0.9rem;
+}
